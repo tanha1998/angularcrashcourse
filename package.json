@@ -7,7 +7,14 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "server": "json-server --watch db.json --port 5000"
+    "server": "json-server --watch db.json --port 5000",
+    "prettier": "prettier --write src/**/*.{js,tsx,scss}",
+    "prettier:check": "prettier --list-different src/**/*.{js,tsx,scss}",
+    "tslint:check": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "stylelint:check": "stylelint \"src/**/*.css\""
+
+
+
   },
   "private": true,
   "dependencies": {
@@ -42,6 +49,8 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "prettier": "^2.6.2",
+    "stylelint": "^14.8.2",
     "tslint": "^6.1.3",
     "typescript": "~4.6.2"
   }

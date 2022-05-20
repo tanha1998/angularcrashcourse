@@ -13,7 +13,7 @@ const httpOptions ={
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:5000/tasks'
+  private apiUrl = 'https://62431f84b6734894c15b41ad.mockapi.io/tasks'
   constructor(private http: HttpClient) {}
 
   getTasks(): Observable <Task[]>{
