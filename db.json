@@ -31,4 +31,20 @@
       "id": 5
     }
   ]
-}
+}[33mcommit 80ccf83f060b28b49c68fbc9b00ad54fa0ad95a2[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: SUCCESSSOFTWARE\ha.nguyen <ha.nguyen@successsoftware.global>
+Date:   Fri May 20 16:06:57 2022 +0700
+
+    'update_service'
+
+[33mcommit 9d46667f78311edfe37bc2ba09677d4e0e3f3a21[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: SUCCESSSOFTWARE\ha.nguyen <ha.nguyen@successsoftware.global>
+Date:   Thu May 19 14:59:48 2022 +0700
+
+    'update'
+
+[33mcommit 9821c64b749ea5fa29cf98e6419079a1acf8cf67[m
+Author: SUCCESSSOFTWARE\ha.nguyen <ha.nguyen@successsoftware.global>
+Date:   Wed May 18 17:08:35 2022 +0700
+
+    first commit

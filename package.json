@@ -12,9 +12,6 @@
     "prettier:check": "prettier --list-different src/**/*.{js,tsx,scss}",
     "tslint:check": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "stylelint:check": "stylelint \"src/**/*.css\""
-
-
-
   },
   "private": true,
   "dependencies": {
@@ -26,6 +23,7 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "@coreui/angular": "^4.0.1",
     "@fortawesome/angular-fontawesome": "^0.10.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
     "@fortawesome/free-brands-svg-icons": "^6.1.0",
